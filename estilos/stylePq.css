@@ -1,0 +1,54 @@
+menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+menu a {
+    width: 93%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.links:hover{
+    border-radius: 0px;
+}
+
+div#imgPrincipal{
+    height: 230px;
+}
+
+div#mainP1{
+    height: 230px;
+}
+
+div#mainP2{
+    width: 100%;
+}
+
+div#mainP2 > section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1250px;
+    row-gap: 100px;
+    width: 100%;
+}
+
+div#mainP2 section div.bloco {
+    width: 50%;
+}
+
+section#img{
+    display: block;
+}
+
+section#img img {
+    width: 100%;
+}

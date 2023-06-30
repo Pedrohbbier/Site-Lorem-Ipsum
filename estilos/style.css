@@ -1,0 +1,200 @@
+/*Versão Desktop*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+menu{
+    padding-top: 13px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-bottom: 13px;
+}
+
+menu > a#menuTitle {
+    font-size: 2.3em;
+    text-decoration: none;
+    color: white;
+    font-family: 'Caveat', cursive;
+}
+
+menu > a.links {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.links:hover {
+    background-color: #139f73;
+    border-radius: 6px;
+}
+
+
+div#imgPrincipal{
+    height: 410px;
+    background: url(../img/fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+}
+
+div#imgPrincipal > h1{
+    font-size: 2.5em;
+}
+
+div#imgPrincipal > p{
+    font-size: 1.1em;
+}
+
+div#imgPrincipal > a{
+    text-decoration: none;
+    color: white;
+    background-color: #139f73;
+    padding: 10px 35px ;
+    border-radius: 4px;
+}
+
+div#mainP1{
+    background-color: #139f73;
+    height: 280px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+div#mainP1 > h2{
+    font-size: 2em;
+}
+
+div#mainP1 > p {
+    font-size: 1.1em;
+}
+
+div#mainP1 > a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 35px ;
+    border-radius: 4px;
+}
+
+div#mainP2 > h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+div#mainP2 > section{
+    display: flex;
+    text-align: center;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    column-gap: 20px;
+}
+
+div#mainP2  section  p{
+    padding-top: 15px;
+    
+}
+
+div#mainP2 section div.bloco{
+    width: 15%;
+    height: 200px;
+}
+
+div#mainP2 section div.bloco h2{
+    font-size: 1.2em;
+}
+
+div#mainP3 h1{
+    text-align: center;
+}
+
+section#img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+section#img img{
+    width: 33.33%;
+}
+
+
+
+
+
+div#fP1{
+    text-align: center;
+}
+
+div#fP1 h1 {
+    padding: 10px;
+}
+
+div#fP1 p {
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+div#fP2{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+}
+
+div.contato{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+div.contato img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+div.contato a {
+    text-decoration: none;
+    color: white;
+    background-color: #139f73;
+    padding: 10px 10px ;
+    border-radius: 4px;
+}
+
+div#fP3{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+div#fP3 p {
+    padding: 30px;
+    font-size: 1.2em;
+}
